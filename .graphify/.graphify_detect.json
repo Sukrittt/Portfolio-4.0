@@ -23,6 +23,7 @@
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/vite.config.js"
     ],
     "document": [
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/CLAUDE.md",
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/design_handoff_portfolio/Portfolio.dc.html",
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/design_handoff_portfolio/README.md",
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/index.html"
@@ -33,8 +34,8 @@
     "image": [
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/design_handoff_portfolio/assets/grain.png",
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/grain.png",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/agentic_workflows.png",
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/limetta.png",
-      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/mini_portfolio.png",
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/otaku_sphere.webp",
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/polymer-bazaar.png",
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/spotify_clone.png",
@@ -43,13 +44,14 @@
     ],
     "video": [
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/claspr.mp4",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/mini_portfolio.mp4",
       "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/spitha_diamonds.mp4"
     ]
   },
-  "total_files": 35,
-  "total_words": 49685,
-  "needs_graph": false,
-  "warning": "Corpus is ~49,685 words - fits in a single context window. You may not need a graph.",
+  "total_files": 37,
+  "total_words": 51279,
+  "needs_graph": true,
+  "warning": null,
   "skipped_sensitive": [],
   "graphifyignore_patterns": 17,
   "scope": {
@@ -58,11 +60,11 @@
     "source": "cli",
     "root": "/Users/sukrit/Dev/Projects/Portfolio 4.0",
     "git_root": "/Users/sukrit/Dev/Projects/Portfolio 4.0",
-    "head": "f58fcb5ee807fe40880fa9ccba3379a066c2cd5d",
-    "candidate_count": 40,
-    "included_count": 35,
-    "excluded_untracked_count": 3,
-    "excluded_ignored_count": 2272,
+    "head": "35a4fe5f35910555fa46b43314be77a16872e19c",
+    "candidate_count": 73,
+    "included_count": 37,
+    "excluded_untracked_count": 0,
+    "excluded_ignored_count": 2271,
     "excluded_sensitive_count": 0,
     "missing_committed_count": 0,
     "warnings": [],

@@ -1,0 +1,346 @@
+{
+  "communities": {
+    "0": [
+      "components_about",
+      "components_about_about",
+      "components_projectrow",
+      "components_projectrow_projectrow",
+      "components_work",
+      "components_work_work",
+      "data_projects",
+      "data_projects_projects",
+      "data_projects_tagline_words",
+      "data_projects_toolkit",
+      "hooks_useheroword",
+      "hooks_useheroword_useheroword"
+    ],
+    "1": [
+      "components_contact",
+      "components_contact_contact",
+      "components_cursor",
+      "components_cursor_cursor",
+      "components_footer",
+      "components_footer_footer",
+      "src_app",
+      "src_app_app"
+    ],
+    "2": [
+      "awwwards_design",
+      "hero_section",
+      "hero_word_cycle",
+      "sukrit_portfolio",
+      "typography_system",
+      "vite_build"
+    ],
+    "3": [
+      "contact_section",
+      "magnetic_links",
+      "nav_component",
+      "project_row",
+      "scroll_reveal"
+    ],
+    "4": [
+      "custom_cursor",
+      "inertia_scroll",
+      "projects_data",
+      "use_is_touch",
+      "work_section"
+    ],
+    "5": [
+      "about_section",
+      "agent_workflows",
+      "claspr",
+      "sukrit_saha_profile"
+    ],
+    "6": [
+      "components_hero",
+      "components_hero_hero",
+      "components_hero_hero_lines",
+      "components_hero_metastyle"
+    ],
+    "7": [
+      "interaction_design",
+      "react_spa",
+      "stack_philosophy"
+    ],
+    "8": [
+      "components_grain",
+      "components_grain_grain"
+    ],
+    "9": [
+      "components_nav",
+      "components_nav_nav"
+    ],
+    "10": [
+      "components_preloader",
+      "components_preloader_preloader"
+    ],
+    "11": [
+      "css_tokens",
+      "preloader"
+    ],
+    "12": [
+      "hooks_usecustomcursor",
+      "hooks_usecustomcursor_usecustomcursor"
+    ],
+    "13": [
+      "hooks_useinertiascroll",
+      "hooks_useinertiascroll_useinertiascroll"
+    ],
+    "14": [
+      "hooks_useistouch",
+      "hooks_useistouch_useistouch"
+    ],
+    "15": [
+      "hooks_usemagnetic",
+      "hooks_usemagnetic_usemagnetic"
+    ],
+    "16": [
+      "hooks_usescrollreveal",
+      "hooks_usescrollreveal_usescrollreveal"
+    ],
+    "17": [
+      "footer_component"
+    ],
+    "18": [
+      "grain_overlay"
+    ],
+    "19": [
+      "limetta"
+    ],
+    "20": [
+      "otaku_sphere"
+    ],
+    "21": [
+      "polymer_bazaar"
+    ],
+    "22": [
+      "spitha_diamonds"
+    ],
+    "23": [
+      "src_main"
+    ],
+    "24": [
+      "typournament"
+    ],
+    "25": [
+      "vite_config"
+    ],
+    "26": [
+      "ynab_expense"
+    ]
+  },
+  "cohesion": {
+    "0": 0.22727272727272727,
+    "1": 0.35714285714285715,
+    "2": 0.4,
+    "3": 0.4,
+    "4": 0.4,
+    "5": 0.5,
+    "6": 0.6666666666666666,
+    "7": 0.6666666666666666,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "14": 1,
+    "15": 1,
+    "16": 1,
+    "17": 1,
+    "18": 1,
+    "19": 1,
+    "20": 1,
+    "21": 1,
+    "22": 1,
+    "23": 1,
+    "24": 1,
+    "25": 1,
+    "26": 1
+  },
+  "gods": [
+    {
+      "id": "sukrit_portfolio",
+      "label": "Sukrit Saha Portfolio",
+      "edges": 16,
+      "degree": 16
+    },
+    {
+      "id": "magnetic_links",
+      "label": "Magnetic links",
+      "edges": 5,
+      "degree": 5
+    },
+    {
+      "id": "work_section",
+      "label": "Work section",
+      "edges": 4,
+      "degree": 4
+    },
+    {
+      "id": "sukrit_saha_profile",
+      "label": "Sukrit Saha",
+      "edges": 4,
+      "degree": 4
+    },
+    {
+      "id": "components_hero_hero",
+      "label": "Hero()",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "custom_cursor",
+      "label": "Custom cursor system",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "react_spa",
+      "label": "React 18 SPA",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "project_row",
+      "label": "ProjectRow component",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "use_is_touch",
+      "label": "useIsTouch hook",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "components_about_about",
+      "label": "About()",
+      "edges": 2,
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Sukrit Saha Portfolio",
+      "target": "Inertia scrolling",
+      "source_files": [
+        "CLAUDE.md",
+        "src/hooks/useInertiaScroll.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "implements",
+      "why": "crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `Inertia scrolling` unexpectedly reaches hub `Sukrit Saha Portfolio`"
+    },
+    {
+      "source": "Sukrit Saha Portfolio",
+      "target": "Projects data",
+      "source_files": [
+        "CLAUDE.md",
+        "src/data/projects.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `Projects data` unexpectedly reaches hub `Sukrit Saha Portfolio`"
+    },
+    {
+      "source": "Sukrit Saha Portfolio",
+      "target": "Scroll-triggered reveals",
+      "source_files": [
+        "CLAUDE.md",
+        "src/hooks/useScrollReveal.js"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "implements",
+      "why": "crosses file types (doc ↔ code); connects across different repos/directories; bridges separate communities; peripheral node `Scroll-triggered reveals` unexpectedly reaches hub `Sukrit Saha Portfolio`"
+    },
+    {
+      "source": "Agent-Native Workflows",
+      "target": "Sukrit Saha",
+      "source_files": [
+        "src/data/projects.js",
+        "CLAUDE.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "created_by",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code ↔ doc); connects across different repos/directories"
+    },
+    {
+      "source": "Claspr",
+      "target": "Sukrit Saha",
+      "source_files": [
+        "src/data/projects.js",
+        "CLAUDE.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "created_by",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code ↔ doc); connects across different repos/directories"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Sukrit Saha Portfolio` connect `Community 2` to `Community 5`, `Community 3`, `Community 11`, `Community 4`, `Community 7`?",
+      "why": "High betweenness centrality (0.089) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `React 18 SPA` connect `Community 7` to `Community 2`?",
+      "why": "High betweenness centrality (0.017) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Sukrit Saha` connect `Community 5` to `Community 2`?",
+      "why": "High betweenness centrality (0.017) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `Magnetic links` (e.g. with `Contact section` and `Navigation component`) actually correct?",
+      "why": "`Magnetic links` has 3 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `Sukrit Saha` (e.g. with `Agent-Native Workflows` and `Claspr`) actually correct?",
+      "why": "`Sukrit Saha` has 3 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `HERO_LINES`, `Awwwards minimal design`, `Vite 5 build system` to the rest of the system?",
+      "why": "18 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ],
+  "labels": {
+    "0": "Community 0",
+    "1": "Community 1",
+    "2": "Community 2",
+    "3": "Community 3",
+    "4": "Community 4",
+    "5": "Community 5",
+    "6": "Community 6",
+    "7": "Community 7",
+    "8": "Community 8",
+    "9": "Community 9",
+    "10": "Community 10",
+    "11": "Community 11",
+    "12": "Community 12",
+    "13": "Community 13",
+    "14": "Community 14",
+    "15": "Community 15",
+    "16": "Community 16",
+    "17": "Community 17",
+    "18": "Community 18",
+    "19": "Community 19",
+    "20": "Community 20",
+    "21": "Community 21",
+    "22": "Community 22",
+    "23": "Community 23",
+    "24": "Community 24",
+    "25": "Community 25",
+    "26": "Community 26"
+  },
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

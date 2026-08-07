@@ -1,0 +1,535 @@
+{
+  "nodes": [
+    {
+      "id": "sukrit_portfolio",
+      "label": "Sukrit Saha Portfolio",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": "Project overview",
+      "rationale": "Main portfolio application showcasing developer projects and skills"
+    },
+    {
+      "id": "awwwards_design",
+      "label": "Awwwards minimal design",
+      "file_type": "concept",
+      "source_file": "design_handoff_portfolio/README.md",
+      "source_location": "Overview",
+      "rationale": "Design philosophy: minimal aesthetic with emphasis on typography and interaction"
+    },
+    {
+      "id": "custom_cursor",
+      "label": "Custom cursor system",
+      "file_type": "concept",
+      "source_file": "src/hooks/useCustomCursor.js",
+      "rationale": "Two-part cursor: solid dot (1:1 tracking) + trailing ring (lerped 0.18/frame)"
+    },
+    {
+      "id": "inertia_scroll",
+      "label": "Inertia scrolling",
+      "file_type": "concept",
+      "source_file": "src/hooks/useInertiaScroll.js",
+      "rationale": "Wheel hijack + lerp loop (0.14/frame) for smooth trailing scroll feel"
+    },
+    {
+      "id": "scroll_reveal",
+      "label": "Scroll-triggered reveals",
+      "file_type": "concept",
+      "source_file": "src/hooks/useScrollReveal.js",
+      "rationale": "IntersectionObserver (threshold 0.15) for staggered fade+slide animations"
+    },
+    {
+      "id": "magnetic_links",
+      "label": "Magnetic links",
+      "file_type": "concept",
+      "source_file": "src/hooks/useMagnetic.js",
+      "rationale": "Elements translate 35% toward cursor on hover, reset on leave"
+    },
+    {
+      "id": "hero_word_cycle",
+      "label": "Dynamic hero word",
+      "file_type": "concept",
+      "source_file": "src/hooks/useHeroWord.js",
+      "rationale": "Auto-cycles tagline words every 2.6s with fade/slide transitions, pausable on hover"
+    },
+    {
+      "id": "react_spa",
+      "label": "React 18 SPA",
+      "file_type": "concept",
+      "source_file": "src/App.jsx",
+      "rationale": "Single-page app: no routing, no state library, vanilla JS hooks for interaction"
+    },
+    {
+      "id": "vite_build",
+      "label": "Vite 5 build system",
+      "file_type": "concept",
+      "source_file": "vite.config.js",
+      "rationale": "Modern bundler for fast dev/build cycles"
+    },
+    {
+      "id": "css_tokens",
+      "label": "OKLCH design tokens",
+      "file_type": "concept",
+      "source_file": "src/index.css",
+      "rationale": "Palette: bg (warm off-white), text, muted, line, wash, accent (moss green)"
+    },
+    {
+      "id": "typography_system",
+      "label": "Typography system",
+      "file_type": "concept",
+      "source_file": "src/App.css",
+      "rationale": "Bricolage Grotesque (display), Instrument Sans (body), all fluid via clamp()"
+    },
+    {
+      "id": "preloader",
+      "label": "Preloader component",
+      "file_type": "concept",
+      "source_file": "src/components/Preloader.jsx",
+      "rationale": "Full-screen overlay: 650ms delay then slide-up over 800ms cubic-bezier(.76,0,.24,1)"
+    },
+    {
+      "id": "nav_component",
+      "label": "Navigation component",
+      "file_type": "concept",
+      "source_file": "src/components/Nav.jsx",
+      "rationale": "Fixed header with wordmark (left) + Work/About/Contact links (right), blurred backdrop"
+    },
+    {
+      "id": "hero_section",
+      "label": "Hero section",
+      "file_type": "concept",
+      "source_file": "src/components/Hero.jsx",
+      "rationale": "Full viewport: eyebrow, 3-line headline with dynamic word, subtext, scroll cue"
+    },
+    {
+      "id": "work_section",
+      "label": "Work section",
+      "file_type": "concept",
+      "source_file": "src/components/Work.jsx",
+      "rationale": "9 project rows with accordion expand, floating preview swatch, cursor hover"
+    },
+    {
+      "id": "project_row",
+      "label": "ProjectRow component",
+      "file_type": "concept",
+      "source_file": "src/components/ProjectRow.jsx",
+      "rationale": "Expandable row: index + title + details (meta, blurb, tags, code link)"
+    },
+    {
+      "id": "about_section",
+      "label": "About section",
+      "file_type": "concept",
+      "source_file": "src/components/About.jsx",
+      "rationale": "Statement paragraph + 3-column toolkit grid (Interface, Backend, AI Layer)"
+    },
+    {
+      "id": "contact_section",
+      "label": "Contact section",
+      "file_type": "concept",
+      "source_file": "src/components/Contact.jsx",
+      "rationale": "Giant mailto link + secondary links (Resume, GitHub, LinkedIn, X)"
+    },
+    {
+      "id": "footer_component",
+      "label": "Footer component",
+      "file_type": "concept",
+      "source_file": "src/components/Footer.jsx",
+      "rationale": "Copyright + back-to-top link, hairline top border"
+    },
+    {
+      "id": "grain_overlay",
+      "label": "Grain overlay",
+      "file_type": "concept",
+      "source_file": "src/components/Grain.jsx",
+      "rationale": "Fixed 40% opacity noise tile, drifting horizontally 55s loop"
+    },
+    {
+      "id": "projects_data",
+      "label": "Projects data",
+      "file_type": "concept",
+      "source_file": "src/data/projects.js",
+      "rationale": "9 projects: titles, meta, blurbs, tags, media (image/video), code/link URLs"
+    },
+    {
+      "id": "agent_workflows",
+      "label": "Agent-Native Workflows",
+      "file_type": "concept",
+      "source_file": "src/data/projects.js",
+      "rationale": "Prototyping full-stack products with Claude Code + agent orchestration, ongoing"
+    },
+    {
+      "id": "claspr",
+      "label": "Claspr",
+      "file_type": "concept",
+      "source_file": "src/data/projects.js",
+      "rationale": "Classroom platform: Next.js, TypeScript, tRPC, PostgreSQL, solo end-to-end"
+    },
+    {
+      "id": "limetta",
+      "label": "Limetta",
+      "file_type": "concept",
+      "source_file": "src/data/projects.js",
+      "rationale": "Expense tracker: multi-account, transfers, dues, replaces 3 finance apps"
+    },
+    {
+      "id": "ynab_expense",
+      "label": "YNAB-Style Expense",
+      "file_type": "concept",
+      "source_file": "src/data/projects.js",
+      "rationale": "Personal finance dashboard built end-to-end with Claude Code"
+    },
+    {
+      "id": "spitha_diamonds",
+      "label": "Spitha Diamonds",
+      "file_type": "concept",
+      "source_file": "src/data/projects.js",
+      "rationale": "Freelance e-commerce storefront for jewelry brand"
+    },
+    {
+      "id": "otaku_sphere",
+      "label": "Otaku-Sphere",
+      "file_type": "concept",
+      "source_file": "src/data/projects.js",
+      "rationale": "Open-source anime community: watchlists, leaderboards, polls"
+    },
+    {
+      "id": "polymer_bazaar",
+      "label": "Polymer Bazaar",
+      "file_type": "concept",
+      "source_file": "src/data/projects.js",
+      "rationale": "B2B dashboard for polymer trade market data, client work"
+    },
+    {
+      "id": "typournament",
+      "label": "Typournament",
+      "file_type": "concept",
+      "source_file": "src/data/projects.js",
+      "rationale": "Competitive typing tournaments: brackets, live WPM, leaderboards"
+    },
+    {
+      "id": "use_is_touch",
+      "label": "useIsTouch hook",
+      "file_type": "concept",
+      "source_file": "src/hooks/useIsTouch.js",
+      "rationale": "Memoized matchMedia check (pointer: coarse) disables all cursor/scroll gimmicks on touch"
+    },
+    {
+      "id": "interaction_design",
+      "label": "Interaction design philosophy",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "rationale": "Motion via inline styles + CSS transitions, no animation library. Hand-rolled vanilla JS hooks driving requestAnimationFrame"
+    },
+    {
+      "id": "stack_philosophy",
+      "label": "Stack philosophy",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "rationale": "Minimal tooling: no CSS framework, no animation library, no router, no state library. Plain CSS + vanilla JS"
+    },
+    {
+      "id": "sukrit_saha_profile",
+      "label": "Sukrit Saha",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": "Project overview",
+      "rationale": "Frontend engineer from Bengaluru, India. Currently at Sumeru Inc. Builds with Claude Code + agentic tooling"
+    }
+  ],
+  "edges": [
+    {
+      "source": "sukrit_portfolio",
+      "target": "awwwards_design",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "react_spa",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "vite_build",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "work_section",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/App.jsx"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "hero_section",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/App.jsx"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "about_section",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/App.jsx"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "contact_section",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/App.jsx"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "css_tokens",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/index.css"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "typography_system",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/App.css"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "custom_cursor",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/hooks/useCustomCursor.js"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "inertia_scroll",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/hooks/useInertiaScroll.js"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "scroll_reveal",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/hooks/useScrollReveal.js"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "magnetic_links",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/hooks/useMagnetic.js"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "hero_word_cycle",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/hooks/useHeroWord.js"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "projects_data",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/data/projects.js"
+    },
+    {
+      "source": "hero_section",
+      "target": "hero_word_cycle",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Hero.jsx"
+    },
+    {
+      "source": "work_section",
+      "target": "project_row",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Work.jsx"
+    },
+    {
+      "source": "work_section",
+      "target": "projects_data",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/Work.jsx"
+    },
+    {
+      "source": "work_section",
+      "target": "custom_cursor",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "project_row",
+      "target": "magnetic_links",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "project_row",
+      "target": "scroll_reveal",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "react_spa",
+      "target": "interaction_design",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "react_spa",
+      "target": "stack_philosophy",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "custom_cursor",
+      "target": "use_is_touch",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "inertia_scroll",
+      "target": "use_is_touch",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "magnetic_links",
+      "target": "use_is_touch",
+      "relation": "depends_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "agent_workflows",
+      "target": "sukrit_saha_profile",
+      "relation": "created_by",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "src/data/projects.js"
+    },
+    {
+      "source": "claspr",
+      "target": "sukrit_saha_profile",
+      "relation": "created_by",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "src/data/projects.js"
+    },
+    {
+      "source": "sukrit_portfolio",
+      "target": "sukrit_saha_profile",
+      "relation": "showcases",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "about_section",
+      "target": "sukrit_saha_profile",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design_handoff_portfolio/README.md"
+    },
+    {
+      "source": "nav_component",
+      "target": "magnetic_links",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "contact_section",
+      "target": "magnetic_links",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "source": "preloader",
+      "target": "css_tokens",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "design_handoff_portfolio/README.md"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "interaction_system",
+      "label": "Interaction system",
+      "nodes": ["custom_cursor", "inertia_scroll", "magnetic_links", "scroll_reveal", "hero_word_cycle"],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "CLAUDE.md"
+    },
+    {
+      "id": "page_layout",
+      "label": "Page layout",
+      "nodes": ["preloader", "nav_component", "hero_section", "work_section", "about_section", "contact_section", "footer_component", "grain_overlay"],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/App.jsx"
+    },
+    {
+      "id": "touch_disabled",
+      "label": "Touch device fallback",
+      "nodes": ["custom_cursor", "inertia_scroll", "magnetic_links"],
+      "relation": "all_depend_on",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,0 +1,73 @@
+{
+  "files": {
+    "code": [
+      "src/App.jsx",
+      "src/components/About.jsx",
+      "src/components/Contact.jsx",
+      "src/components/Cursor.jsx",
+      "src/components/Footer.jsx",
+      "src/components/Grain.jsx",
+      "src/components/Hero.jsx",
+      "src/components/Nav.jsx",
+      "src/components/Preloader.jsx",
+      "src/components/ProjectRow.jsx",
+      "src/components/Work.jsx",
+      "src/data/projects.js",
+      "src/hooks/useCustomCursor.js",
+      "src/hooks/useHeroWord.js",
+      "src/hooks/useInertiaScroll.js",
+      "src/hooks/useIsTouch.js",
+      "src/hooks/useMagnetic.js",
+      "src/hooks/useScrollReveal.js",
+      "src/main.jsx",
+      "vite.config.js"
+    ],
+    "document": [
+      "CLAUDE.md",
+      "design_handoff_portfolio/Portfolio.dc.html",
+      "design_handoff_portfolio/README.md",
+      "index.html"
+    ],
+    "paper": [
+      "public/resume.pdf"
+    ],
+    "image": [
+      "design_handoff_portfolio/assets/grain.png",
+      "public/grain.png",
+      "public/projects/agentic_workflows.png",
+      "public/projects/limetta.png",
+      "public/projects/otaku_sphere.webp",
+      "public/projects/polymer-bazaar.png",
+      "public/projects/spotify_clone.png",
+      "public/projects/typournament.png",
+      "public/projects/ynab-expense.png"
+    ],
+    "video": [
+      "public/projects/claspr.mp4",
+      "public/projects/mini_portfolio.mp4",
+      "public/projects/spitha_diamonds.mp4"
+    ]
+  },
+  "total_files": 37,
+  "total_words": 51279,
+  "needs_graph": true,
+  "warning": null,
+  "skipped_sensitive": [],
+  "graphifyignore_patterns": 17,
+  "scope": {
+    "requested_mode": "all",
+    "resolved_mode": "all",
+    "source": "configured-default",
+    "root": ".",
+    "git_root": ".",
+    "head": "35a4fe5f35910555fa46b43314be77a16872e19c",
+    "candidate_count": null,
+    "included_count": 37,
+    "excluded_untracked_count": 0,
+    "excluded_ignored_count": 0,
+    "excluded_sensitive_count": 0,
+    "missing_committed_count": 0,
+    "warnings": [],
+    "recommendation": null
+  }
+}

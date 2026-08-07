@@ -1,0 +1,55 @@
+:root {
+  --bg: oklch(98% 0.004 90);
+  --text: oklch(20% 0.006 90);
+  --muted: oklch(52% 0.006 90);
+  --line: oklch(90% 0.004 90);
+  --wash: oklch(96% 0.004 90);
+  --accent: oklch(56% 0.1 145);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Instrument Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+@keyframes grainShift {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200px 0;
+  }
+}
+
+@keyframes bounceCue {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}

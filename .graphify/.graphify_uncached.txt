@@ -1,0 +1,13 @@
+/Users/sukrit/Dev/Projects/Portfolio 4.0/design_handoff_portfolio/Portfolio.dc.html
+/Users/sukrit/Dev/Projects/Portfolio 4.0/design_handoff_portfolio/README.md
+/Users/sukrit/Dev/Projects/Portfolio 4.0/index.html
+/Users/sukrit/Dev/Projects/Portfolio 4.0/.graphify/converted/pdf/resume_d5870af48e6d.md
+/Users/sukrit/Dev/Projects/Portfolio 4.0/design_handoff_portfolio/assets/grain.png
+/Users/sukrit/Dev/Projects/Portfolio 4.0/public/grain.png
+/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/limetta.png
+/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/mini_portfolio.png
+/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/otaku_sphere.webp
+/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/polymer-bazaar.png
+/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/spotify_clone.png
+/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/typournament.png
+/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/ynab-expense.png

@@ -47,18 +47,32 @@ export function ProjectRow({ project, index, isExpanded, isHovered, isRevealed, 
               </span>
             ))}
           </div>
-          {project.code && (
-            <a
-              href={project.code}
-              target="_blank"
-              rel="noopener"
-              data-magnetic="true"
-              data-cursor=""
-              className="project-code-link"
-            >
-              {project.codeLabel || 'Code ↗'}
-            </a>
-          )}
+          <div className="project-links">
+            {project.link && (
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener"
+                data-magnetic="true"
+                data-cursor=""
+                className="project-code-link"
+              >
+                Live ↗
+              </a>
+            )}
+            {project.code && (
+              <a
+                href={project.code}
+                target="_blank"
+                rel="noopener"
+                data-magnetic="true"
+                data-cursor=""
+                className="project-code-link"
+              >
+                {project.codeLabel || 'Code ↗'}
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </div>

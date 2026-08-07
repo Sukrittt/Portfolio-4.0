@@ -1,0 +1,21 @@
+[
+  {
+    "sourceFile": "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/resume.pdf",
+    "markdownPath": "/Users/sukrit/Dev/Projects/Portfolio 4.0/.graphify/converted/pdf/resume_d5870af48e6d.md",
+    "provider": "unpdf",
+    "mode": "auto",
+    "status": "converted",
+    "reason": "text_extractable",
+    "preflight": {
+      "filePath": "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/resume.pdf",
+      "sha256": "d5870af48e6df53c6bbea639846ce0fd9ab2e9890772dfcf048583abb7736671",
+      "pageCount": 1,
+      "wordCount": 454,
+      "charCount": 3416,
+      "imageMarkerCount": 0,
+      "textLayerProvider": "unpdf",
+      "reason": "text_extractable",
+      "shouldOcr": false
+    }
+  }
+]

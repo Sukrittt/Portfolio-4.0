@@ -44,7 +44,8 @@ export function Hero({ loaded, word, wordPhase, pauseWord, resumeWord }) {
               transition: `opacity .9s cubic-bezier(.16,1,.3,1) ${line3Delay}s, transform .9s cubic-bezier(.16,1,.3,1) ${line3Delay}s`,
             }}
           >
-            <span className="hero-line">products with </span>
+            <span className="hero-line">products with</span>
+            <br />
             <span
               className="hero-word"
               style={{

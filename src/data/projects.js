@@ -7,7 +7,7 @@ export const PROJECTS = [
     tags: ['Claude Code', 'Agent orchestration', 'LLM integration'],
     code: 'https://github.com/Sukrittt',
     codeLabel: 'Explore ↗',
-    media: { type: 'placeholder' },
+    media: { type: 'image', src: '/projects/agentic_workflows.png' },
   },
   {
     title: 'Claspr',
@@ -16,6 +16,7 @@ export const PROJECTS = [
       'An all-in-one classroom platform — assignments, notes, and discussions in one place. Built solo, end to end.',
     tags: ['Next.js', 'TypeScript', 'tRPC', 'PostgreSQL'],
     code: 'https://github.com/Sukrittt/claspr',
+    link: 'https://claspr.vercel.app',
     media: { type: 'video', src: '/projects/claspr.mp4' },
   },
   {
@@ -25,6 +26,7 @@ export const PROJECTS = [
       'Expense tracking with multiple accounts, transfers, and dues — built to replace three finance apps with one.',
     tags: ['Next.js', 'TypeScript', 'Tailwind'],
     code: 'https://github.com/Sukrittt/Limetta',
+    link: 'https://limetta.vercel.app',
     media: { type: 'image', src: '/projects/limetta.png' },
   },
   {
@@ -34,7 +36,8 @@ export const PROJECTS = [
       'A fully personalized YNAB-style expense dashboard — built end to end with Claude Code, tailored to how I actually budget.',
     tags: ['Claude Code', 'Personal finance', 'Dashboard'],
     code: 'https://github.com/Sukrittt/ynab-replacement',
-    media: { type: 'placeholder' },
+    link: 'https://ynab-replacement.vercel.app',
+    media: { type: 'image', src: '/projects/ynab-expense.png' },
   },
   {
     title: 'Spitha Diamonds',
@@ -43,6 +46,7 @@ export const PROJECTS = [
       'A brand and storefront for a diamond jewelry retailer — built as freelance client work, from product presentation to checkout.',
     tags: ['Freelance', 'E-commerce', 'Client work'],
     code: null,
+    link: 'https://spitha-diamonds.vercel.app',
     media: { type: 'video', src: '/projects/spitha_diamonds.mp4' },
   },
   {
@@ -52,6 +56,7 @@ export const PROJECTS = [
       'An open-source hub for anime fans — watchlists, leaderboards, and polls, wrapped in a community layer.',
     tags: ['Next.js', 'TypeScript', 'Community'],
     code: 'https://github.com/Sukrittt/Otaku-Sphere',
+    link: 'https://otaku-sphere.vercel.app',
     media: { type: 'image', src: '/projects/otaku_sphere.webp' },
   },
   {
@@ -61,6 +66,7 @@ export const PROJECTS = [
       'A price-index dashboard for the polymer trade — market data made legible for procurement teams.',
     tags: ['Dashboard', 'Data viz', 'Client work'],
     code: null,
+    link: 'https://polymerbazaar.com',
     media: { type: 'image', src: '/projects/polymer-bazaar.png', fit: 'icon' },
   },
   {
@@ -70,6 +76,7 @@ export const PROJECTS = [
       'Head-to-head typing tournaments for speed typists — brackets, live WPM, and leaderboards.',
     tags: ['TypeScript', 'Real-time'],
     code: 'https://github.com/Sukrittt/typournament',
+    link: 'https://typournament.vercel.app',
     media: { type: 'image', src: '/projects/typournament.png' },
   },
   {
@@ -79,7 +86,8 @@ export const PROJECTS = [
       'A playful bento-grid portfolio, animated top to bottom — a speed-run in interaction design.',
     tags: ['React', 'Motion'],
     code: 'https://github.com/Sukrittt/Mini-Portfolio',
-    media: { type: 'image', src: '/projects/mini_portfolio.png' },
+    link: 'https://mini-portfolio-delta-eight.vercel.app',
+    media: { type: 'video', src: '/projects/mini_portfolio.mp4' },
   },
   {
     title: 'Spotify Clone',
@@ -88,6 +96,7 @@ export const PROJECTS = [
       "A pixel-close rebuild of Spotify's player — an exercise in motion, state, and audio UI.",
     tags: ['React', 'Web Audio'],
     code: 'https://github.com/Sukrittt',
+    link: 'https://spotify-pixel-perfect.vercel.app',
     media: { type: 'image', src: '/projects/spotify_clone.png' },
   },
 ];

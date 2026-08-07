@@ -15,7 +15,11 @@ export function About({ reveal }) {
           {TOOLKIT.map((col) => (
             <div className="toolkit-row" key={col.label}>
               <span className="toolkit-label">{col.label}</span>
-              <p className="toolkit-items">{col.items.join(', ')}</p>
+              <div className="toolkit-items">
+                {col.items.map((item) => (
+                  <span className="tag" key={item}>{item}</span>
+                ))}
+              </div>
             </div>
           ))}
         </div>

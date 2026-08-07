@@ -1,0 +1,70 @@
+{
+  "files": {
+    "code": [
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/About.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Contact.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Cursor.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Footer.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Grain.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Hero.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Nav.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Preloader.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/ProjectRow.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Work.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/data/projects.js",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useCustomCursor.js",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useHeroWord.js",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useInertiaScroll.js",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useIsTouch.js",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useMagnetic.js",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useScrollReveal.js",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/main.jsx",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/vite.config.js"
+    ],
+    "document": [
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/design_handoff_portfolio/Portfolio.dc.html",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/design_handoff_portfolio/README.md",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/index.html",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/.graphify/converted/pdf/resume_d5870af48e6d.md"
+    ],
+    "paper": [],
+    "image": [
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/design_handoff_portfolio/assets/grain.png",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/grain.png",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/limetta.png",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/mini_portfolio.png",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/otaku_sphere.webp",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/polymer-bazaar.png",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/spotify_clone.png",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/typournament.png",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/ynab-expense.png"
+    ],
+    "video": [
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/claspr.mp4",
+      "/Users/sukrit/Dev/Projects/Portfolio 4.0/public/projects/spitha_diamonds.mp4"
+    ]
+  },
+  "total_files": 35,
+  "total_words": 49685,
+  "needs_graph": false,
+  "warning": "Corpus is ~49,685 words - fits in a single context window. You may not need a graph.",
+  "skipped_sensitive": [],
+  "graphifyignore_patterns": 17,
+  "scope": {
+    "requested_mode": "auto",
+    "resolved_mode": "committed",
+    "source": "cli",
+    "root": "/Users/sukrit/Dev/Projects/Portfolio 4.0",
+    "git_root": "/Users/sukrit/Dev/Projects/Portfolio 4.0",
+    "head": "f58fcb5ee807fe40880fa9ccba3379a066c2cd5d",
+    "candidate_count": 40,
+    "included_count": 35,
+    "excluded_untracked_count": 3,
+    "excluded_ignored_count": 2272,
+    "excluded_sensitive_count": 0,
+    "missing_committed_count": 0,
+    "warnings": [],
+    "recommendation": "Use --scope all or graphify.yaml inputs.corpus for a knowledge-base folder."
+  }
+}

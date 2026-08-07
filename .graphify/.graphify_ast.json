@@ -1,0 +1,986 @@
+{
+  "nodes": [
+    {
+      "id": "src_app",
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L19"
+    },
+    {
+      "id": "components_about",
+      "label": "About.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/About.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_about_about",
+      "label": "About()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/About.jsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "components_contact",
+      "label": "Contact.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Contact.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_contact_contact",
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Contact.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_cursor",
+      "label": "Cursor.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Cursor.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_cursor_cursor",
+      "label": "Cursor()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Cursor.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_footer",
+      "label": "Footer.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Footer.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_footer_footer",
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Footer.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_grain",
+      "label": "Grain.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Grain.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_grain_grain",
+      "label": "Grain()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Grain.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_hero",
+      "label": "Hero.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Hero.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_hero_hero_lines",
+      "label": "HERO_LINES",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Hero.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_hero_metastyle",
+      "label": "metaStyle()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Hero.jsx",
+      "source_location": "L3"
+    },
+    {
+      "id": "components_hero_hero",
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Hero.jsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "components_nav",
+      "label": "Nav.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Nav.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_nav_nav",
+      "label": "Nav()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Nav.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_preloader",
+      "label": "Preloader.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Preloader.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_preloader_preloader",
+      "label": "Preloader()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Preloader.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_projectrow",
+      "label": "ProjectRow.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/ProjectRow.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_projectrow_projectrow",
+      "label": "ProjectRow()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/ProjectRow.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_work",
+      "label": "Work.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Work.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "components_work_work",
+      "label": "Work()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Work.jsx",
+      "source_location": "L5"
+    },
+    {
+      "id": "data_projects",
+      "label": "projects.js",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/data/projects.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "data_projects_projects",
+      "label": "PROJECTS",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/data/projects.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "data_projects_tagline_words",
+      "label": "TAGLINE_WORDS",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/data/projects.js",
+      "source_location": "L95"
+    },
+    {
+      "id": "data_projects_toolkit",
+      "label": "TOOLKIT",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/data/projects.js",
+      "source_location": "L103"
+    },
+    {
+      "id": "hooks_usecustomcursor",
+      "label": "useCustomCursor.js",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useCustomCursor.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "hooks_usecustomcursor_usecustomcursor",
+      "label": "useCustomCursor()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useCustomCursor.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "hooks_useheroword",
+      "label": "useHeroWord.js",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useHeroWord.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "hooks_useheroword_useheroword",
+      "label": "useHeroWord()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useHeroWord.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "hooks_useinertiascroll",
+      "label": "useInertiaScroll.js",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useInertiaScroll.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "hooks_useinertiascroll_useinertiascroll",
+      "label": "useInertiaScroll()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useInertiaScroll.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "hooks_useistouch",
+      "label": "useIsTouch.js",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useIsTouch.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "hooks_useistouch_useistouch",
+      "label": "useIsTouch()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useIsTouch.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "hooks_usemagnetic",
+      "label": "useMagnetic.js",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useMagnetic.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "hooks_usemagnetic_usemagnetic",
+      "label": "useMagnetic()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useMagnetic.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "hooks_usescrollreveal",
+      "label": "useScrollReveal.js",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useScrollReveal.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "hooks_usescrollreveal_usescrollreveal",
+      "label": "useScrollReveal()",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useScrollReveal.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "src_main",
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/main.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "vite_config",
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/vite.config.js",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "src_app",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "users_sukrit_dev_projects_portfolio_4_0_src_app_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_useistouch",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_useistouch_useistouch",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_usecustomcursor",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_usecustomcursor_usecustomcursor",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_useinertiascroll",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_useinertiascroll_useinertiascroll",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_usemagnetic",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_usemagnetic_usemagnetic",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L6",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_usescrollreveal",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_usescrollreveal_usescrollreveal",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_useheroword",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "hooks_useheroword_useheroword",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L8",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_preloader",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_preloader_preloader",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L9",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_cursor",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_cursor_cursor",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L10",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_grain",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L11",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_grain_grain",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L11",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_nav",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_nav_nav",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L12",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_hero",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L13",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_hero_hero",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L13",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_work",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L14",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_work_work",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L14",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_about",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L15",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_about_about",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L15",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_contact",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L16",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_contact_contact",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L16",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_footer",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L17",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "components_footer_footer",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L17",
+      "weight": 1
+    },
+    {
+      "source": "src_app",
+      "target": "src_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/App.jsx",
+      "source_location": "L19",
+      "weight": 1
+    },
+    {
+      "source": "components_about",
+      "target": "data_projects",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/About.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_about",
+      "target": "data_projects_toolkit",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/About.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_about",
+      "target": "components_about_about",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/About.jsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_contact",
+      "target": "components_contact_contact",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Contact.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_cursor",
+      "target": "components_cursor_cursor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Cursor.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_footer",
+      "target": "components_footer_footer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Footer.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_grain",
+      "target": "components_grain_grain",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Grain.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_hero",
+      "target": "components_hero_hero_lines",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Hero.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_hero",
+      "target": "components_hero_metastyle",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Hero.jsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_hero",
+      "target": "components_hero_hero",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Hero.jsx",
+      "source_location": "L11",
+      "weight": 1
+    },
+    {
+      "source": "components_hero_hero",
+      "target": "components_hero_metastyle",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Hero.jsx",
+      "source_location": "L16",
+      "weight": 1
+    },
+    {
+      "source": "components_nav",
+      "target": "components_nav_nav",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Nav.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_preloader",
+      "target": "components_preloader_preloader",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Preloader.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_projectrow",
+      "target": "components_projectrow_projectrow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/ProjectRow.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_work",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Work.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "components_work",
+      "target": "data_projects",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Work.jsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "components_work",
+      "target": "data_projects_projects",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Work.jsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "components_work",
+      "target": "components_projectrow",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Work.jsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_work",
+      "target": "components_projectrow_projectrow",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Work.jsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "components_work",
+      "target": "components_work_work",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/components/Work.jsx",
+      "source_location": "L5",
+      "weight": 1
+    },
+    {
+      "source": "data_projects",
+      "target": "data_projects_projects",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/data/projects.js",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "data_projects",
+      "target": "data_projects_tagline_words",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/data/projects.js",
+      "source_location": "L95",
+      "weight": 1
+    },
+    {
+      "source": "data_projects",
+      "target": "data_projects_toolkit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/data/projects.js",
+      "source_location": "L103",
+      "weight": 1
+    },
+    {
+      "source": "hooks_usecustomcursor",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useCustomCursor.js",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "hooks_usecustomcursor",
+      "target": "hooks_usecustomcursor_usecustomcursor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useCustomCursor.js",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "hooks_useheroword",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useHeroWord.js",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "hooks_useheroword",
+      "target": "data_projects",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useHeroWord.js",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "hooks_useheroword",
+      "target": "data_projects_tagline_words",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useHeroWord.js",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "hooks_useheroword",
+      "target": "hooks_useheroword_useheroword",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useHeroWord.js",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "hooks_useinertiascroll",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useInertiaScroll.js",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "hooks_useinertiascroll",
+      "target": "hooks_useinertiascroll_useinertiascroll",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useInertiaScroll.js",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "hooks_useistouch",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useIsTouch.js",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "hooks_useistouch",
+      "target": "hooks_useistouch_useistouch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useIsTouch.js",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "hooks_usemagnetic",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useMagnetic.js",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "hooks_usemagnetic",
+      "target": "hooks_usemagnetic_usemagnetic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useMagnetic.js",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "hooks_usescrollreveal",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useScrollReveal.js",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "hooks_usescrollreveal",
+      "target": "hooks_usescrollreveal_usescrollreveal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/hooks/useScrollReveal.js",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "src_main",
+      "target": "react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/main.jsx",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "src_main",
+      "target": "client",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/main.jsx",
+      "source_location": "L2",
+      "weight": 1
+    },
+    {
+      "source": "src_main",
+      "target": "users_sukrit_dev_projects_portfolio_4_0_src_app_tsx",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/main.jsx",
+      "source_location": "L3",
+      "weight": 1
+    },
+    {
+      "source": "src_main",
+      "target": "users_sukrit_dev_projects_portfolio_4_0_src_index_css",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/src/main.jsx",
+      "source_location": "L4",
+      "weight": 1
+    },
+    {
+      "source": "vite_config",
+      "target": "vite",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/vite.config.js",
+      "source_location": "L1",
+      "weight": 1
+    },
+    {
+      "source": "vite_config",
+      "target": "plugin_react",
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/sukrit/Dev/Projects/Portfolio 4.0/vite.config.js",
+      "source_location": "L2",
+      "weight": 1
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

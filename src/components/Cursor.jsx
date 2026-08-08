@@ -7,7 +7,7 @@ export function Cursor({ dotRef, ringRef, cursorLabel }) {
       <div ref={dotRef} className="cursor-dot" />
       <div
         ref={ringRef}
-        className="cursor-ring"
+        className={`cursor-ring${cursorLabel ? ' cursor-ring--label' : ''}`}
         style={{ transform: `translate(-50%,-50%) scale(${cursorScale})` }}
       >
         <span className="cursor-ring-label">{cursorLabel || ''}</span>

@@ -54,6 +54,14 @@
   white-space: nowrap;
 }
 
+.cursor-ring--label {
+  background: var(--text);
+}
+
+.cursor-ring--label .cursor-ring-label {
+  color: var(--bg);
+}
+
 /* Preloader */
 .preloader {
   position: fixed;
@@ -156,7 +164,6 @@
   line-height: 0.98;
   letter-spacing: -0.02em;
   color: var(--accent);
-  cursor: pointer;
   display: inline-block;
   border-bottom: 3px dashed var(--accent);
   padding-bottom: 4px;

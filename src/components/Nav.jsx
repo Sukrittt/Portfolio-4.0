@@ -6,7 +6,9 @@ export function Nav({ scrollToId }) {
 
   return (
     <nav className="nav">
-      <span className="nav-wordmark">SUKRIT SAHA</span>
+      <a href="#hero" className="nav-wordmark" data-magnetic="true" data-cursor="" onClick={go('hero')}>
+        SUKRIT SAHA
+      </a>
       <div className="nav-links">
         <a href="#work" data-magnetic="true" data-cursor="" onClick={go('work')}>
           Work

@@ -16,7 +16,7 @@ export const PROJECTS = [
       'An all-in-one classroom platform — assignments, notes, and discussions in one place. Built solo, end to end.',
     tags: ['Next.js', 'TypeScript', 'tRPC', 'PostgreSQL'],
     code: 'https://github.com/Sukrittt/claspr',
-    link: 'https://claspr.vercel.app',
+    link: 'https://claspr-three.vercel.app',
     media: { type: 'video', src: '/projects/claspr.mp4' },
   },
   {
@@ -26,7 +26,7 @@ export const PROJECTS = [
       'Expense tracking with multiple accounts, transfers, and dues — built to replace three finance apps with one.',
     tags: ['Next.js', 'TypeScript', 'Tailwind'],
     code: 'https://github.com/Sukrittt/Limetta',
-    link: 'https://limetta.vercel.app',
+    link: 'https://limetta-theta.vercel.app',
     media: { type: 'image', src: '/projects/limetta.png' },
   },
   {
@@ -46,7 +46,7 @@ export const PROJECTS = [
       'A brand and storefront for a diamond jewelry retailer — built as freelance client work, from product presentation to checkout.',
     tags: ['Freelance', 'E-commerce', 'Client work'],
     code: null,
-    link: 'https://spitha-diamonds.vercel.app',
+    link: 'https://spitha-diamonds-copy.vercel.app',
     media: { type: 'video', src: '/projects/spitha_diamonds.mp4' },
   },
   {
@@ -56,7 +56,7 @@ export const PROJECTS = [
       'An open-source hub for anime fans — watchlists, leaderboards, and polls, wrapped in a community layer.',
     tags: ['Next.js', 'TypeScript', 'Community'],
     code: 'https://github.com/Sukrittt/Otaku-Sphere',
-    link: 'https://otaku-sphere.vercel.app',
+    link: 'https://otaku-sphere-nine.vercel.app',
     media: { type: 'image', src: '/projects/otaku_sphere.webp' },
   },
   {
@@ -76,7 +76,7 @@ export const PROJECTS = [
       'Head-to-head typing tournaments for speed typists — brackets, live WPM, and leaderboards.',
     tags: ['TypeScript', 'Real-time'],
     code: 'https://github.com/Sukrittt/typournament',
-    link: 'https://typournament.vercel.app',
+    link: 'https://typournament-pi.vercel.app',
     media: { type: 'image', src: '/projects/typournament.png' },
   },
   {

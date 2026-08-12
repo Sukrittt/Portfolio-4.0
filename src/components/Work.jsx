@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { PROJECTS } from '../data/projects';
 import { ProjectRow } from './ProjectRow';
 
-export function Work({ reveal, revealedIds, previewRef }) {
+export function Work({ reveal, revealedIds, previewRef, isTouch }) {
   const [expandedIndex, setExpandedIndex] = useState(null);
   const [hoverIndex, setHoverIndex] = useState(null);
 
@@ -29,34 +29,36 @@ export function Work({ reveal, revealedIds, previewRef }) {
         />
       ))}
 
-      <div ref={previewRef} className="preview-swatch-wrap">
-        <div
-          className="preview-swatch"
-          style={{
-            opacity: hoverProject ? 1 : 0,
-            transform: hoverProject ? 'scale(1)' : 'scale(0.85)',
-          }}
-        >
-          {hoverProject?.media.type === 'video' && (
-            <video
-              className="preview-media"
-              src={hoverProject.media.src}
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
-          )}
-          {hoverProject?.media.type === 'image' && (
-            <img
-              className={hoverProject.media.fit === 'icon' ? 'preview-media preview-media-icon' : 'preview-media'}
-              src={hoverProject.media.src}
-              alt=""
-            />
-          )}
-          {hoverProject?.media.type === 'placeholder' && <div className="preview-stripes" />}
+      {!isTouch && (
+        <div ref={previewRef} className="preview-swatch-wrap">
+          <div
+            className="preview-swatch"
+            style={{
+              opacity: hoverProject ? 1 : 0,
+              transform: hoverProject ? 'scale(1)' : 'scale(0.85)',
+            }}
+          >
+            {hoverProject?.media.type === 'video' && (
+              <video
+                className="preview-media"
+                src={hoverProject.media.src}
+                autoPlay
+                loop
+                muted
+                playsInline
+              />
+            )}
+            {hoverProject?.media.type === 'image' && (
+              <img
+                className={hoverProject.media.fit === 'icon' ? 'preview-media preview-media-icon' : 'preview-media'}
+                src={hoverProject.media.src}
+                alt=""
+              />
+            )}
+            {hoverProject?.media.type === 'placeholder' && <div className="preview-stripes" />}
+          </div>
         </div>
-      </div>
+      )}
     </section>
   );
 }

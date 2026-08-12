@@ -157,6 +157,10 @@
   color: var(--text);
 }
 
+.hero-line3 {
+  padding-bottom: 14px;
+}
+
 .hero-word {
   font-family: 'Bricolage Grotesque', sans-serif;
   font-weight: 600;
@@ -164,9 +168,12 @@
   line-height: 0.98;
   letter-spacing: -0.02em;
   color: var(--accent);
-  display: inline-block;
-  border-bottom: 3px dashed var(--accent);
-  padding-bottom: 4px;
+  display: inline;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
   transition: opacity 0.22s ease, transform 0.22s ease;
 }
 

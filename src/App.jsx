@@ -38,7 +38,7 @@ function App() {
       <Preloader loaded={loaded} />
       <Nav scrollToId={scrollToId} />
       <Hero loaded={loaded} word={word} wordPhase={wordPhase} pauseWord={pauseWord} resumeWord={resumeWord} />
-      <Work reveal={reveal} revealedIds={revealedIds} previewRef={previewRef} />
+      <Work reveal={reveal} revealedIds={revealedIds} previewRef={previewRef} isTouch={isTouch} />
       <About reveal={reveal} />
       <Contact reveal={reveal} />
       <Footer scrollToId={scrollToId} />

@@ -72,6 +72,19 @@ export function ProjectRow({ project, index, isExpanded, isHovered, isRevealed, 
                 {project.codeLabel || 'Code ↗'}
               </a>
             )}
+            {project.extraLinks?.map(({ label, href }) => (
+              <a
+                key={href}
+                href={href}
+                target="_blank"
+                rel="noopener"
+                data-magnetic="true"
+                data-cursor=""
+                className="project-code-link"
+              >
+                {label}
+              </a>
+            ))}
           </div>
         </div>
       </div>

@@ -30,13 +30,17 @@ export const PROJECTS = [
     media: { type: 'image', src: '/projects/limetta.png' },
   },
   {
-    title: 'YNAB-Style Expense',
+    title: 'Envelope',
     meta: 'Claude Code · Personal finance · Dashboard',
     blurb:
-      'A fully personalized YNAB-style expense dashboard — built end to end with Claude Code, tailored to how I actually budget.',
+      'A fully personalized YNAB-style envelope expense dashboard — built end to end with Claude Code, tailored to how I actually budget.',
     tags: ['Claude Code', 'Personal finance', 'Dashboard'],
-    code: 'https://github.com/Sukrittt/ynab-replacement',
+    code: 'https://github.com/Sukrittt/envelope',
     link: 'https://ynab-replacement.vercel.app',
+    extraLinks: [
+      { label: 'Mobile ↗', href: 'https://github.com/Sukrittt/ynab-mobile' },
+      { label: 'APK ↓', href: '/projects/envelope.apk' },
+    ],
     media: { type: 'image', src: '/projects/ynab-expense.png' },
   },
   {

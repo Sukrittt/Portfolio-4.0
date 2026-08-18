@@ -39,7 +39,7 @@ export const PROJECTS = [
     link: 'https://ynab-replacement.vercel.app',
     extraLinks: [
       { label: 'Mobile ↗', href: 'https://github.com/Sukrittt/ynab-mobile' },
-      { label: 'APK ↓', href: '/projects/envelope.apk' },
+      { label: 'APK ↓', href: 'https://github.com/Sukrittt/envelope-mobile/releases/download/Beta/envelope.apk' },
     ],
     media: { type: 'image', src: '/projects/ynab-expense.png' },
   },

@@ -1,0 +1,166 @@
+{
+  "src/App.jsx": {
+    "mtime": 1786538797522.7334,
+    "hash": "3e107436eb2f5c1218fee852d0c86b4b"
+  },
+  "src/components/About.jsx": {
+    "mtime": 1786141654911.3,
+    "hash": "e66d8b69bb7ab900a9f45fe309103dc6"
+  },
+  "src/components/Contact.jsx": {
+    "mtime": 1786116833398.0562,
+    "hash": "96bc888c4e9fc5b7be30072f43e88043"
+  },
+  "src/components/Cursor.jsx": {
+    "mtime": 1786197064742.1548,
+    "hash": "6c662b05328b38d29b9c8309e24d4bd5"
+  },
+  "src/components/Footer.jsx": {
+    "mtime": 1786116836813.999,
+    "hash": "12ecf296295dae7bc715d7d32ca93223"
+  },
+  "src/components/Grain.jsx": {
+    "mtime": 1786116782375.196,
+    "hash": "0fad5291d7d1b357c4164dcd5fee7e66"
+  },
+  "src/components/Hero.jsx": {
+    "mtime": 1786140603092.7227,
+    "hash": "a03324ff24ae4542069638a2acded1b5"
+  },
+  "src/components/Nav.jsx": {
+    "mtime": 1786197087463.1448,
+    "hash": "5c8000df8c02b175067841a7b0db8603"
+  },
+  "src/components/Preloader.jsx": {
+    "mtime": 1786116766260.7148,
+    "hash": "fb45e594d7f0bfb4996f2f089c1550a8"
+  },
+  "src/components/ProjectRow.jsx": {
+    "mtime": 1786698096617.2158,
+    "hash": "4cd7c710bb137ccb86ec3b729c8d77ee"
+  },
+  "src/components/Work.jsx": {
+    "mtime": 1786538816908.5657,
+    "hash": "28ee6c9ee7a7333d380c14b502bb6f59"
+  },
+  "src/data/projects.js": {
+    "mtime": 1787224438397.7944,
+    "hash": "615addb1e9da80bc9583947bbaede08c"
+  },
+  "src/hooks/useCustomCursor.js": {
+    "mtime": 1786116733070.3538,
+    "hash": "2b57ed500eb6074c2fb07a63269e8115"
+  },
+  "src/hooks/useHeroWord.js": {
+    "mtime": 1786116756449.8596,
+    "hash": "d3b00630637bd6c8ceb5a3e9118116d4"
+  },
+  "src/hooks/useInertiaScroll.js": {
+    "mtime": 1786116739581.8608,
+    "hash": "c054457a6f8bb7143db447646279aa42"
+  },
+  "src/hooks/useIsTouch.js": {
+    "mtime": 1786116726180.2966,
+    "hash": "4dc25b46ee6f48e5133969360e54b3ce"
+  },
+  "src/hooks/useMagnetic.js": {
+    "mtime": 1786196926806.553,
+    "hash": "cde1cc4169ad411efca1b90d3f6d1925"
+  },
+  "src/hooks/useScrollReveal.js": {
+    "mtime": 1786116750780.2603,
+    "hash": "cc007d25a747114a478d6a716a859d2b"
+  },
+  "src/main.jsx": {
+    "mtime": 1786048477135.548,
+    "hash": "3415c1a0a6ee0a0f05f925a3615c63f5"
+  },
+  "vite.config.js": {
+    "mtime": 1786048490753.9062,
+    "hash": "8d124141768da7b1d76b1f5d9896bcb0"
+  },
+  ".graphify/.graphify/GRAPH_REPORT.md": {
+    "mtime": 1786141968129.7603,
+    "hash": "872ac77f8356090a8cf9cacbac63f342"
+  },
+  ".graphify/.graphify/graph.html": {
+    "mtime": 1786141968137.0688,
+    "hash": "7d8dd7f60e845efb630ecb94c10212a5"
+  },
+  ".graphify/.graphify/scratch/assistant-extract-instructions.md": {
+    "mtime": 1786141905377.262,
+    "hash": "94c9b3e9779757826e927afbc1aad06e"
+  },
+  "CLAUDE.md": {
+    "mtime": 1786140345211.799,
+    "hash": "3aa6ec312f1102f3efe8df704fa2c1a4"
+  },
+  "README.md": {
+    "mtime": 1786197835761.8728,
+    "hash": "28516898cdb45d22aba1878538583ede"
+  },
+  "design_handoff_portfolio/Portfolio.dc.html": {
+    "mtime": 1786115027000,
+    "hash": "91b6e91a7b82bb2377ec9276e16c4784"
+  },
+  "design_handoff_portfolio/README.md": {
+    "mtime": 1786115027000,
+    "hash": "c755c4a36ddb9b603e5e100a50e6797d"
+  },
+  "index.html": {
+    "mtime": 1786391152569.7593,
+    "hash": "0f46eca737f6ee34636e5ff6b1346ffd"
+  },
+  "public/resume.pdf": {
+    "mtime": 1786115523205.6853,
+    "hash": "4bf9c7e50bd5648a11c66e5ab6807159"
+  },
+  "design_handoff_portfolio/assets/grain.png": {
+    "mtime": 1786115028000,
+    "hash": "65472e7141949b254474e45a043a9195"
+  },
+  "public/grain.png": {
+    "mtime": 1786116678400.8435,
+    "hash": "65472e7141949b254474e45a043a9195"
+  },
+  "public/projects/agentic_workflows.png": {
+    "mtime": 1786140687488.93,
+    "hash": "93f21ebb957015a7383860d657cf7d75"
+  },
+  "public/projects/limetta.png": {
+    "mtime": 1786116293143.4531,
+    "hash": "23749b4ac57e1cc25e0f94e08e13b307"
+  },
+  "public/projects/otaku_sphere.webp": {
+    "mtime": 1786116092218.787,
+    "hash": "8b8f1561b8536aa857d68ef071b95c40"
+  },
+  "public/projects/polymer-bazaar.png": {
+    "mtime": 1786116092214.8123,
+    "hash": "c88decb2d8038cea7be408bf92fbf16b"
+  },
+  "public/projects/spotify_clone.png": {
+    "mtime": 1786116293092.7744,
+    "hash": "9546bce9bce209f79a2e9bf78ff9ecad"
+  },
+  "public/projects/typournament.png": {
+    "mtime": 1786116293122.7588,
+    "hash": "0eacaec08d3276d63ee1a5d8fdc98a75"
+  },
+  "public/projects/ynab-expense.png": {
+    "mtime": 1786696179521.0837,
+    "hash": "fb9d2a365feacf80af074ffae9479637"
+  },
+  "public/projects/claspr.mp4": {
+    "mtime": 1786116215259.1204,
+    "hash": "6336539772a42d030c6b5b20f0c5becf"
+  },
+  "public/projects/mini_portfolio.mp4": {
+    "mtime": 1786141245289.9019,
+    "hash": "2203e839853eb1edfe11dddf2e89b35e"
+  },
+  "public/projects/spitha_diamonds.mp4": {
+    "mtime": 1786116092210.6455,
+    "hash": "8f0d4b5d45756a859fcff7535596e648"
+  }
+}

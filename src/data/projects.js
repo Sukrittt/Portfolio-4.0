@@ -29,20 +29,20 @@ export const PROJECTS = [
     link: 'https://limetta-theta.vercel.app',
     media: { type: 'image', src: '/projects/limetta.png' },
   },
-  {
-    title: 'Envelope',
-    meta: 'Claude Code · Personal finance · Dashboard',
-    blurb:
-      'A fully personalized YNAB-style envelope expense dashboard — built end to end with Claude Code, tailored to how I actually budget.',
-    tags: ['Claude Code', 'Personal finance', 'Dashboard'],
-    code: 'https://github.com/Sukrittt/envelope',
-    link: 'https://ynab-replacement.vercel.app',
-    extraLinks: [
-      { label: 'Mobile ↗', href: 'https://github.com/Sukrittt/ynab-mobile' },
-      { label: 'APK ↓', href: 'https://github.com/Sukrittt/envelope-mobile/releases/download/Beta/envelope.apk' },
-    ],
-    media: { type: 'image', src: '/projects/ynab-expense.png' },
-  },
+  // {
+  //   title: 'Envelope',
+  //   meta: 'Claude Code · Personal finance · Dashboard',
+  //   blurb:
+  //     'A fully personalized YNAB-style envelope expense dashboard — built end to end with Claude Code, tailored to how I actually budget.',
+  //   tags: ['Claude Code', 'Personal finance', 'Dashboard'],
+  //   code: 'https://github.com/Sukrittt/envelope',
+  //   link: 'https://ynab-replacement.vercel.app',
+  //   extraLinks: [
+  //     { label: 'Mobile ↗', href: 'https://github.com/Sukrittt/ynab-mobile' },
+  //     { label: 'APK ↓', href: 'https://github.com/Sukrittt/envelope-mobile/releases/download/Beta/envelope.apk' },
+  //   ],
+  //   media: { type: 'image', src: '/projects/ynab-expense.png' },
+  // },
   {
     title: 'Spitha Diamonds',
     meta: 'Freelance · E-commerce · Jewelry',

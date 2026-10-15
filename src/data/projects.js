@@ -1,5 +1,18 @@
 export const PROJECTS = [
   {
+    title: 'Aviary',
+    meta: 'Next.js · Expo · AI · Current project',
+    blurb:
+      'Open-source envelope budgeting built for rupees — give every rupee a job, log a spend in three taps, and ask an AI that already knows your budget. Live on web and Google Play.',
+    tags: ['Next.js', 'React Native', 'MongoDB', 'Gemini'],
+    code: 'https://github.com/Sukrittt/aviary',
+    link: 'https://useaviary.com',
+    extraLinks: [
+      { label: 'Google Play ↗', href: 'https://play.google.com/store/apps/details?id=com.sukrit04.envelope' },
+    ],
+    media: { type: 'video', src: '/projects/aviary.mp4' },
+  },
+  {
     title: 'Agent-Native Workflows',
     meta: 'Claude Code · Agent orchestration · Ongoing',
     blurb:
@@ -29,20 +42,6 @@ export const PROJECTS = [
     link: 'https://limetta-theta.vercel.app',
     media: { type: 'image', src: '/projects/limetta.png' },
   },
-  // {
-  //   title: 'Envelope',
-  //   meta: 'Claude Code · Personal finance · Dashboard',
-  //   blurb:
-  //     'A fully personalized YNAB-style envelope expense dashboard — built end to end with Claude Code, tailored to how I actually budget.',
-  //   tags: ['Claude Code', 'Personal finance', 'Dashboard'],
-  //   code: 'https://github.com/Sukrittt/envelope',
-  //   link: 'https://ynab-replacement.vercel.app',
-  //   extraLinks: [
-  //     { label: 'Mobile ↗', href: 'https://github.com/Sukrittt/ynab-mobile' },
-  //     { label: 'APK ↓', href: 'https://github.com/Sukrittt/envelope-mobile/releases/download/Beta/envelope.apk' },
-  //   ],
-  //   media: { type: 'image', src: '/projects/ynab-expense.png' },
-  // },
   {
     title: 'Spitha Diamonds',
     meta: 'Freelance · E-commerce · Jewelry',

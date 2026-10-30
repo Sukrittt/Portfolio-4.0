@@ -147,34 +147,14 @@
   overflow: hidden;
 }
 
-.hero-line,
-.hero-line3 {
+.hero-line {
+  padding-bottom: 0.14em; /* room for descenders inside the mask */
   font-family: 'Bricolage Grotesque', sans-serif;
   font-weight: 600;
   font-size: clamp(2.6rem, 8.4vw, 6.4rem);
   line-height: 0.98;
   letter-spacing: -0.02em;
   color: var(--text);
-}
-
-.hero-line3 {
-  padding-bottom: 14px;
-}
-
-.hero-word {
-  font-family: 'Bricolage Grotesque', sans-serif;
-  font-weight: 600;
-  font-size: clamp(2.6rem, 8.4vw, 6.4rem);
-  line-height: 0.98;
-  letter-spacing: -0.02em;
-  color: var(--accent);
-  display: inline;
-  text-decoration: underline;
-  text-decoration-style: dashed;
-  text-decoration-color: var(--accent);
-  text-decoration-thickness: 3px;
-  text-underline-offset: 8px;
-  transition: opacity 0.22s ease, transform 0.22s ease;
 }
 
 .hero-subtext {
@@ -417,38 +397,6 @@
   color: var(--text);
   max-width: 840px;
   margin: clamp(24px, 3vw, 36px) 0 clamp(48px, 6vw, 72px);
-}
-
-.toolkit-list {
-  display: flex;
-  flex-direction: column;
-  border-top: 1px solid var(--line);
-}
-
-.toolkit-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: clamp(8px, 2vw, 24px);
-  padding: clamp(16px, 2vw, 22px) 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.toolkit-row .toolkit-label {
-  flex: 0 0 clamp(120px, 18vw, 200px);
-}
-
-.toolkit-row .toolkit-items {
-  flex: 1 1 260px;
-}
-
-.toolkit-label {
-  font-family: 'Instrument Sans', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-  padding-top: 2px;
 }
 
 .toolkit-items {

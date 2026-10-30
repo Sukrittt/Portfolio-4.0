@@ -26,6 +26,12 @@ body {
   overflow-x: hidden;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 a {
   color: var(--text);
   text-decoration: none;

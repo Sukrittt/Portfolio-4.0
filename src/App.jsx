@@ -2,10 +2,8 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import { useIsTouch } from './hooks/useIsTouch';
 import { useCustomCursor } from './hooks/useCustomCursor';
-import { useInertiaScroll } from './hooks/useInertiaScroll';
 import { useMagnetic } from './hooks/useMagnetic';
 import { useScrollReveal } from './hooks/useScrollReveal';
-import { useHeroWord } from './hooks/useHeroWord';
 import { Preloader } from './components/Preloader';
 import { Cursor } from './components/Cursor';
 import { Grain } from './components/Grain';
@@ -21,10 +19,8 @@ function App() {
   const [loaded, setLoaded] = useState(false);
 
   const { dotRef, ringRef, previewRef, cursorLabel } = useCustomCursor(isTouch);
-  const { scrollToId } = useInertiaScroll(isTouch);
   useMagnetic(isTouch);
   const { revealedIds, reveal } = useScrollReveal();
-  const { word, wordPhase, pauseWord, resumeWord } = useHeroWord();
 
   useEffect(() => {
     const timer = setTimeout(() => setLoaded(true), 650);
@@ -36,12 +32,12 @@ function App() {
       <Grain />
       {!isTouch && <Cursor dotRef={dotRef} ringRef={ringRef} cursorLabel={cursorLabel} />}
       <Preloader loaded={loaded} />
-      <Nav scrollToId={scrollToId} />
-      <Hero loaded={loaded} word={word} wordPhase={wordPhase} pauseWord={pauseWord} resumeWord={resumeWord} />
+      <Nav />
+      <Hero loaded={loaded} />
       <Work reveal={reveal} revealedIds={revealedIds} previewRef={previewRef} isTouch={isTouch} />
       <About reveal={reveal} />
       <Contact reveal={reveal} />
-      <Footer scrollToId={scrollToId} />
+      <Footer />
     </div>
   );
 }

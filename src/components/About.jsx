@@ -6,21 +6,13 @@ export function About({ reveal }) {
       <div data-reveal-id="about-block" style={reveal('about-block')}>
         <span className="overline">(02) ABOUT</span>
         <p className="about-statement">
-          I'm a frontend engineer from India, currently building at Sumeru Inc. I care about
-          interfaces that feel instant — considered motion, no wasted clicks, code that ships.
-          Lately most of that shipping happens with Claude Code — prototyping fast with agentic
-          tooling, then layering in the fallbacks and validation that make it production-ready.
+          I'm a frontend engineer in Bengaluru, currently at Sumeru Inc. I build for web and mobile,
+          most recently Aviary, a budgeting app on both. I care most about interfaces that feel
+          instant.
         </p>
-        <div className="toolkit-list">
-          {TOOLKIT.map((col) => (
-            <div className="toolkit-row" key={col.label}>
-              <span className="toolkit-label">{col.label}</span>
-              <div className="toolkit-items">
-                {col.items.map((item) => (
-                  <span className="tag" key={item}>{item}</span>
-                ))}
-              </div>
-            </div>
+        <div className="toolkit-items">
+          {TOOLKIT.map((item) => (
+            <span className="tag" key={item}>{item}</span>
           ))}
         </div>
       </div>
